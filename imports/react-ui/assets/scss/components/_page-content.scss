@@ -49,6 +49,15 @@
     .margined {
       margin: $box-inner-space;
       overflow: hidden;
+
+        .container {
+          width: auto;
+          padding: 0;
+        }
+
+        .password-input {
+          margin-left: 34.666666%;
+        }
     }
   }
 

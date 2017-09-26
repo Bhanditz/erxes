@@ -49,7 +49,7 @@
     "moment": "^2.17.1",
     "node4mailer": "^4.0.3",
     "prop-types": "^15.5.8",
-    "react": "^15.4.2",
+    "react": "^15.6.1",
     "react-addons-css-transition-group": "^15.4.2",
     "react-addons-shallow-compare": "^15.4.2",
     "react-apollo": "^1.4.15",

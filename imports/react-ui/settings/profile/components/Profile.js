@@ -44,7 +44,7 @@ class Profile extends Component {
       <form className="margined" onSubmit={this.handleSubmit}>
         <UserCommonInfos user={this.props.user} />
 
-        <FormGroup>
+        <FormGroup className="password-input">
           <ControlLabel>Current password</ControlLabel>
           <FormControl id="password" type="password" />
         </FormGroup>

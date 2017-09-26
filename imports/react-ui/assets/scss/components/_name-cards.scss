@@ -1,7 +1,7 @@
 .avatar {
   display: block;
-  max-width: 80px;
-  border-radius: 40px;
+  width: 100%;
+  max-width: 270px;
 
   .no-user {
     background: url("/images/userDefaultIcon.png") center no-repeat;
@@ -20,6 +20,50 @@
     font-size: 13px;
     color: $text-color;
     overflow: hidden;
+  }
+}
+
+.profileCircleImg {
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  display: table;
+  margin: 0 auto;
+
+  &:hover {
+    .profileSelector {
+      visibility: visible;
+    }
+  }
+
+  .profileSelector {
+    transition: background-color 7s ease-out;
+    visibility: hidden;
+    background-color: rgba(0,0,0,0.44);
+    bottom: 0;
+    color: #fff;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+
+    .profileImageInput {
+      display: none;
+    }
+
+    label {
+      padding: 15px 10px 23px 10px;
+
+      .svgUpload {
+        fill: #fff;
+        padding-top: 3px;
+        margin: 5px 5px 0 0;
+      }
+
+      span {
+        font-weight: 400;
+      }
+    }
   }
 }
 
